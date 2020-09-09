@@ -248,7 +248,7 @@ class UserExpense(Resource):
     @jwt_required
     @cross_origin(origin='*', support_credentials=True)
     def delete(self, user_id):
-        pass
+        
 
 class UserLogout(Resource):
 
